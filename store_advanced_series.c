@@ -722,7 +722,7 @@ int main (){
               printf("enter price: \n");
               scanf("%d",&p1);
               printf("enter name: \n");
-              scanf("%s",str);
+              scanf("%99s",str);
               printf("enter i: \n");
               scanf("%d",&i);
               a = (s->DArray+(i-1));
